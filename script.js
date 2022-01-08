@@ -1,3 +1,6 @@
+
+
+
 let quotes = [
   `I live my life a quarter mile at a time`,
   `I said a ten-second car, not a ten-minute car`,
@@ -17,13 +20,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Do all of your work inside the document.addEventListener  
 
   // Part 1
-
+  document.getElementById("main-title").innerHTML = "short title"
 
   // Part 2
-
-
+const body = document.querySelector('body')
+body.style.background = "yellow"
+//Not going to lie, i like the yellow
   // Part 3
-
+  document.getElementById("")
 
   // Part 4
 
