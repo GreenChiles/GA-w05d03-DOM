@@ -33,8 +33,8 @@ body.style.background = "yellow"
   last.parentNode.removeChild(last)
   
   // Part 4
-
-
+  let specialTitle = document.querySelector(".special-title")
+  specialTitle.style.fontSize = "2rem"
   // Part 5
 
 
