@@ -55,7 +55,12 @@ body.style.background = "yellow"
   //source: https://www.w3schools.com/jsref/met_node_appendchild.asp
   // Part 7
 
-
+ let aNewDiv = document.createElement('div')
+ aNewDiv.classList.add('blog-post', 'purple')
+ aNewDiv.innerHTML = '<h2>Hello World!</h2>'
+ aNewDiv.innerHTML = '<p>Test</p>'
+ document.querySelector(".main").appendChild(aNewDiv)
+ console.log(aNewDiv)
   // Part 8
 
 
