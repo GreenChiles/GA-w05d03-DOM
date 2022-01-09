@@ -32,6 +32,7 @@ body.style.background = "yellow"
   let last = list[list.length -1]
   last.parentNode.removeChild(last)
   
+  //source: https://stackoverflow.com/questions/44937553/remove-last-item-of-a-list-using-javascript
   // Part 4
   let specialTitle = document.querySelector(".special-title")
   specialTitle.style.fontSize = "2rem"
@@ -47,8 +48,11 @@ body.style.background = "yellow"
 
 
   // Part 6
-
-
+  let node = document.createElement("LI");                 // Create a <li> node
+  let textnode = document.createTextNode("Denver");         // Create a text node
+  node.appendChild(textnode);                              // Append the text to <li>
+  document.querySelector("#past-races").appendChild(node);     // Append <li> to <ul> with id="myList"
+  //source: https://www.w3schools.com/jsref/met_node_appendchild.asp
   // Part 7
 
 
