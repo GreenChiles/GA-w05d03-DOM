@@ -36,6 +36,14 @@ body.style.background = "yellow"
   let specialTitle = document.querySelector(".special-title")
   specialTitle.style.fontSize = "2rem"
   // Part 5
+  
+  let listTwo = document.querySelector("#past-races").getElementsByTagName("li")
+  let rmList = listTwo[listTwo.length -3]
+  rmList.parentNode.removeChild(rmList)
+//weirdest thing happened, so if i have the same constant names as part 3 it would not
+//remove anyhting and take away my yellow body color. But if i have different names 
+//like (E.G. listTwo or rmList) it would work. I dont know much about why the new color,
+//but i guess i can see some sence in why it woulnt remove a 'li' with reassigning the names.
 
 
   // Part 6
