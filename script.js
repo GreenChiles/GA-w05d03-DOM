@@ -27,8 +27,11 @@ const body = document.querySelector('body')
 body.style.background = "yellow"
 //Not going to lie, i like the yellow
   // Part 3
-  document.getElementById("")
-
+  
+  let list = document.getElementById("favorite-things").getElementsByTagName("li")
+  let last = list[list.length -1]
+  last.parentNode.removeChild(last)
+  
   // Part 4
 
 
