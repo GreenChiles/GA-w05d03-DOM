@@ -70,7 +70,24 @@ document.querySelector('#quote-title').addEventListener("click", function() {
 
   // Part 9
 
+let blogs = document.querySelectorAll('.blog-post')
+// blogs.forEach(blog => {
+//   blog.addEventListener('mouseout', event => {
+//     event.classList.toggle("purple")
+//   })
+//   blog.addEventListener("mouseenter", event => {
+//     event.classList.toggle("red")
+//   })
+// })
 
+blogs.forEach(function(blog) {
+  blog.addEventListener('mouseout', function() {
+    blog.classList.toggle("purple")
+  })
+  blog.addEventListener("mouseenter", function() {
+    blog.classList.toggle("red")
+  })
+})
 
 
 });
