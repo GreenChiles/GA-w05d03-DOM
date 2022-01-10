@@ -64,7 +64,9 @@ body.style.background = "yellow"
  // source: https://www.reddit.com/r/javascript/comments/21lt75/help_with_multiple_lined_innerhtml_assignment/
 
   // Part 8
-
+document.querySelector('#quote-title').addEventListener("click", function() {
+  randomQuote()
+})
 
   // Part 9
 
