@@ -57,14 +57,12 @@ body.style.background = "yellow"
 
  let aNewDiv = document.createElement('div')
  aNewDiv.classList.add('blog-post', 'purple')
- aNewDiv.innerHTML = '<h1>Denver</h1> <br> <p> I DROVE RECKLESSLY AND WON!</p>'
+ aNewDiv.innerHTML = '<h1>Denver</h1>  <p> I DROVE RECKLESSLY AND WON!</p>'
  document.querySelector(".main").appendChild(aNewDiv)
  console.log(aNewDiv)
 
  // source: https://www.reddit.com/r/javascript/comments/21lt75/help_with_multiple_lined_innerhtml_assignment/
-// i was having an issue with having multiple innerHTML
-//turns out i can use one, i just write everything in it and use
-//<br> to drop it down a line. Only problem is that it adds it a bit low...
+
   // Part 8
 
 
