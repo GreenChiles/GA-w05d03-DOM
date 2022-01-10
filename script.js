@@ -57,8 +57,7 @@ body.style.background = "yellow"
 
  let aNewDiv = document.createElement('div')
  aNewDiv.classList.add('blog-post', 'purple')
- aNewDiv.innerHTML = '<h2>Hello World!</h2>'
- aNewDiv.innerHTML = '<p>Test</p>'
+ aNewDiv.innerHTML = '<h1>Denver</h1> <br> <p> I DROVE RECKLESSLY AND WON!</p>'
  document.querySelector(".main").appendChild(aNewDiv)
  console.log(aNewDiv)
   // Part 8
